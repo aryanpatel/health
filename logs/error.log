@@ -324,3 +324,148 @@ Stack Trace:
 #23 {main}
 
 
+2017-07-17 14:29:49 Warning: Warning (2): include(D:\xampp\htdocs\health/vendor/friendsofcake/bootstrap-ui/config\bootstrap.php): failed to open stream: No such file or directory in [D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Core\Plugin.php, line 400]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 400
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 400
+Cake\Core\Plugin::bootstrap() - CORE\src\Core\Plugin.php, line 322
+Cake\Core\Plugin::load() - CORE\src\Core\Plugin.php, line 175
+require_once - ROOT\config\bootstrap.php, line 227
+Cake\Http\BaseApplication::bootstrap() - CORE\src\Http\BaseApplication.php, line 61
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 70
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-17 14:29:49 Warning: Warning (2): include() [<a href='https://secure.php.net/function.include'>function.include</a>]: Failed opening 'D:\xampp\htdocs\health/vendor/friendsofcake/bootstrap-ui/config\bootstrap.php' for inclusion (include_path='D:\xampp\php\PEAR') in [D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Core\Plugin.php, line 400]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 400
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 400
+Cake\Core\Plugin::bootstrap() - CORE\src\Core\Plugin.php, line 322
+Cake\Core\Plugin::load() - CORE\src\Core\Plugin.php, line 175
+require_once - ROOT\config\bootstrap.php, line 227
+Cake\Http\BaseApplication::bootstrap() - CORE\src\Http\BaseApplication.php, line 61
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 70
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-17 14:29:51 Warning: Warning (2): include(D:\xampp\htdocs\health/vendor/friendsofcake/bootstrap-ui/config\routes.php) [<a href='https://secure.php.net/function.include'>function.include</a>]: failed to open stream: No such file or directory in [D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Core\Plugin.php, line 400]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 400
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 400
+Cake\Core\Plugin::routes() - CORE\src\Core\Plugin.php, line 350
+Cake\Core\Plugin::routes() - CORE\src\Core\Plugin.php, line 337
+include - ROOT\config\routes.php, line 82
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 1061
+Cake\Routing\Router::parseRequest() - CORE\src\Routing\Router.php, line 365
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 48
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-17 14:29:51 Warning: Warning (2): include() [<a href='https://secure.php.net/function.include'>function.include</a>]: Failed opening 'D:\xampp\htdocs\health/vendor/friendsofcake/bootstrap-ui/config\routes.php' for inclusion (include_path='D:\xampp\php\PEAR') in [D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Core\Plugin.php, line 400]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 400
+Cake\Core\Plugin::_includeFile() - CORE\src\Core\Plugin.php, line 400
+Cake\Core\Plugin::routes() - CORE\src\Core\Plugin.php, line 350
+Cake\Core\Plugin::routes() - CORE\src\Core\Plugin.php, line 337
+include - ROOT\config\routes.php, line 82
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 1061
+Cake\Routing\Router::parseRequest() - CORE\src\Routing\Router.php, line 365
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 48
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-17 14:29:55 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-17 14:29:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-17 14:29:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-17 14:29:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-07-17 14:30:06 Error: Fatal Error (4): syntax error, unexpected '?' in [D:\xampp\htdocs\health\vendor\backstageel\cakephp-gentelella-theme\src\Template\Element\nav-top.ctp, line 29]
+Request URL: /login
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-07-17 14:30:07 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?' in D:\xampp\htdocs\health\vendor\backstageel\cakephp-gentelella-theme\src\Template\Element\nav-top.ctp on line 29
+Request URL: /login
+Client IP: 127.0.0.1
+Stack Trace:
+#0 D:\xampp\htdocs\health\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'D:\\xampp\\htdocs...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

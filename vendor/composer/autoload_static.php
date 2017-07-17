@@ -9,13 +9,13 @@ class ComposerStaticInitdeed898a6f5c9c56aa66fbe3067ef4d4
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '34122c0574b76bf21c9a8db62b5b9cf3' => __DIR__ . '/..' . '/cakephp/chronos/src/carbon_compat.php',
-        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
-        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'c720f792236cd163ece8049879166850' => __DIR__ . '/..' . '/cakephp/cakephp/src/Core/functions.php',
         'ede59e3a405fb689cd1cebb7bb1db3fb' => __DIR__ . '/..' . '/cakephp/cakephp/src/Collection/functions.php',
         '90236b492da7ca2983a2ad6e33e4152e' => __DIR__ . '/..' . '/cakephp/cakephp/src/I18n/functions.php',
         'b1fc73705e1bec51cd2b20a32cf1c60a' => __DIR__ . '/..' . '/cakephp/cakephp/src/Utility/bootstrap.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
@@ -71,6 +71,7 @@ class ComposerStaticInitdeed898a6f5c9c56aa66fbe3067ef4d4
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'Gentelella\\' => 11,
         ),
         'D' => 
         array (
@@ -92,6 +93,7 @@ class ComposerStaticInitdeed898a6f5c9c56aa66fbe3067ef4d4
         ),
         'B' => 
         array (
+            'BootstrapUI\\' => 12,
             'Bake\\' => 5,
         ),
         'A' => 
@@ -210,6 +212,10 @@ class ComposerStaticInitdeed898a6f5c9c56aa66fbe3067ef4d4
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'Gentelella\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/backstageel/cakephp-gentelella-theme/src',
+        ),
         'DebugKit\\Test\\Fixture\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakephp/debug_kit/tests/Fixture',
@@ -257,6 +263,10 @@ class ComposerStaticInitdeed898a6f5c9c56aa66fbe3067ef4d4
         'CakeDC\\Auth\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakedc/auth/src',
+        ),
+        'BootstrapUI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/friendsofcake/bootstrap-ui/src',
         ),
         'Bake\\' => 
         array (
