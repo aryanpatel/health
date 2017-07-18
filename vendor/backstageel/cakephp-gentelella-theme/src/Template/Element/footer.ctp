@@ -1,5 +1,6 @@
 <?php
 $file = '';
+
 if($this->plugin){
     $file = ROOT . DS . 'plugins'.DS.$this->plugin.DS.'src' . DS . 'Template' . DS . 'Element' . DS . 'footer.ctp';
 }

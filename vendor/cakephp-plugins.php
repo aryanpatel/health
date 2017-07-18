@@ -4,6 +4,7 @@ return [
     'plugins' => [
         'Bake' => $baseDir . '/vendor/cakephp/bake/',
         'BootstrapUI' => $baseDir . '/vendor/friendsofcake/bootstrap-ui/',
+        'CakeDC' => $baseDir . '/plugins/CakeDC/',
         'CakeDC/Auth' => $baseDir . '/vendor/cakedc/auth/',
         'CakeDC/Users' => $baseDir . '/vendor/cakedc/users/',
         'DebugKit' => $baseDir . '/vendor/cakephp/debug_kit/',
