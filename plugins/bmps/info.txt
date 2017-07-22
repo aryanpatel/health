@@ -1,0 +1,24 @@
+Filter:
+//Filter to change country list
+bmps_get_countries_list -> includes/class-bmps-countries.php
+
+//Filter to change continents list
+bmps_continents_list -> includes/class-bmps-countries.php
+
+//Filter that runs before updating address
+pre_update_option_bmps_default_customer_address -> includes/class-bmps-geolocation.php
+
+//Filter to allow update address database periodically
+bmps_geolocation_update_database_periodically -> includes/class-bmps-geolocation.php
+
+//Filter to change IP lookup service 
+bmps_geolocation_ip_lookup_apis -> includes/class-bmps-geolocation.php
+
+//Filter to change external IP of customer
+bmps_geolocation_ip_lookup_api_response -> includes/class-bmps-geolocation.php
+
+//Filter to modify country code of customer
+bmps_geolocate_ip -> includes/class-bmps-geolocation.php
+
+//Filter to change location of getolocation database
+bmps_geolocation_local_database_path -> includes/class-bmps-geolocation.php

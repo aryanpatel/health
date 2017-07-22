@@ -220,8 +220,5 @@ Type::build('timestamp')
 if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => true]);
 }
-Configure::write('Users.Social.login', true); //to enable social login
-Configure::write('Users.GoogleAuthenticator.login', true);
-Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
 Plugin::load('Gentelella', ['bootstrap' => true, 'routes' => true]);
 //Plugin::load('BootstrapUI', ['bootstrap' => true, 'routes' => true]);

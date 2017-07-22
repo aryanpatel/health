@@ -81,4 +81,4 @@ Router::scope('/', function (RouteBuilder $routes) {
  */
 Plugin::routes();
 //Overwrite route:
-Router::connect('/register', ['plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'register']);
+//Router::connect('/register', ['plugin' => 'CakeDC/Users', 'controller' => 'Users', 'action' => 'register']);
